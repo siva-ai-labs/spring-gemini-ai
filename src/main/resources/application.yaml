@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-gemini-ai
+
+  ai:
+    model:
+      chat: google-genai
+    google:
+      genai:
+        api-key:
+        chat:
+          options:
+            model: gemini-3.8-flash
+
+springdoc:
+  api-docs:
+    enabled: true
+    swagger-ui:
+        enabled: true
